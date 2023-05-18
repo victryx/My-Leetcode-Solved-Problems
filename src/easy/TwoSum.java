@@ -23,6 +23,7 @@ public class TwoSum {
                 if (nums[i] + nums[j] == target && i != j)
                     return new int[]{i,j};
             }
+
         }
 
         return new int[2];

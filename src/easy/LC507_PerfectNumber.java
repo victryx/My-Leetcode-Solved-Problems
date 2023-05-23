@@ -7,7 +7,7 @@ import java.util.List;
  * A perfect number is a positive integer that is equal to the sum of its positive divisors,
  * excluding the number itself. A divisor of an integer x is an integer that can divide x evenly.
  */
-public class PerfectNumber507 {
+public class LC507_PerfectNumber {
 
     public static void main(String[] args) {
         System.out.println(checkPerfectNumber4(28));

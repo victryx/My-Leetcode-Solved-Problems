@@ -1,6 +1,6 @@
 package easy;
 
-public class ArrangingCoins441 {
+public class LC441ArrangingCoins {
     public static void main(String[] args) {
 
     }
@@ -37,6 +37,7 @@ public class ArrangingCoins441 {
      * <b>2nd try</b> <br>
      * Not so stupid solution
      * Explanation pending.
+     * Solved: 2023-05-22
      */
     public static int arrangeCoins2(int coins) {
         return (int) ((-1.0 + Math.sqrt(1.0 + 8.0 * coins))/2.0);

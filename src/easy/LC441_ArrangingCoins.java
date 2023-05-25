@@ -1,6 +1,6 @@
 package easy;
 
-public class LC441ArrangingCoins {
+public class LC441_ArrangingCoins {
     public static void main(String[] args) {
 
     }

@@ -7,7 +7,7 @@ import java.util.HashMap;
  * Given an array of integers nums and an integer target,
  * return indices of the two numbers such that they add up to target
  */
-public class TwoSum {
+public class LC2_TwoSum {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(twoSum2(new int[]{3,2,4}, 6)));
     }

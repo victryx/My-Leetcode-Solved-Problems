@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class LC136_SingleNumber {
     public static void main(String[] args) {
-        System.out.println(singleNumber(new int[]{1,2,4,1,2}));
+        System.out.println(singleNumber2(new int[]{1,2,4,1,2,5,5,9,9}));
     }
 
     /**
@@ -26,5 +26,17 @@ public class LC136_SingleNumber {
             }
         }
         return singles.iterator().next();
+    }
+
+    /**
+     * XOR Solution <br />
+     * SOURCE: <a href="https://leetcode.com/problems/single-number/solutions/3021354/java-easy-solution-beats-100-runtime-1ms-bit-manipulation/">Leetcode</a>
+     */
+    public static int singleNumber2(int[] nums) {
+        int result=0;
+        for(int i=0; i<nums.length; i++) {
+            result = result^nums[i];
+        }
+        return result;
     }
 }

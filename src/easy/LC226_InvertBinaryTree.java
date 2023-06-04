@@ -7,6 +7,11 @@ import java.util.List;
 
 public class LC226_InvertBinaryTree {
 
+    /**
+     * <b>1st Try.</b> <br />
+     * <br />
+     * Solved: 2023-06-03
+     */
     public TreeNode invertTree(TreeNode root) {
         if (root == null) return null;
 

@@ -1,8 +1,10 @@
 package easy;
 
+import entities.TreeNode;
+
 import java.util.*;
 
-public class LC26_RemoveDuplicates {
+public class LC101_SymmetricTree {
 
     /**
      * <b>1st Try.</b> <br />

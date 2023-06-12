@@ -16,7 +16,7 @@ public class LC58_LengthOfLastWord {
      * substring solution<br />
      * Source: https://leetcode.com/problems/length-of-last-word/solutions/3578178/fastest-shortest-way-to-solve-beats-100/
      */
-    public int lengthOfLastWord(String s) {
+    public int lengthOfLastWord2(String s) {
         s = s.trim();
         if(s.indexOf(' ')==-1)
         return s.length();

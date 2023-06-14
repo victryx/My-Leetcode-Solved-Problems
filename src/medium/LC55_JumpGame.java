@@ -31,6 +31,11 @@ public class LC55_JumpGame {
         return jump;
     }
 
+    /**
+     * <b>2nd Try.</b> <br />
+     * works ^^ <br />
+     * Solved: 2023-06-13
+     */
     public static boolean canJump2(int[] nums) {
         if (nums.length == 1) return true;
         if (nums[0] == 0) return false;

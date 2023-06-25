@@ -14,7 +14,17 @@ public class LC238_ProductOfArrayExceptSelf {
      * Brute force approach <br />
      * Solved: 2023-06-24
      */
-
+    public static int[] productExceptSelf(int[] nums) {
+        int[] result = new int[nums.length];
+        for (int i = 0; i < result.length; i++) {
+            result[i] = 1;
+            for (int j = 0; j < result.length; j++) {
+                if (i == j) continue;
+                result[i] *= nums[j];
+            }
+        }
+        return result;
+    }
 
 
     /**

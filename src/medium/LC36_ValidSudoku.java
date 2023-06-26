@@ -1,6 +1,8 @@
 package medium;
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class LC36_ValidSudoku {
@@ -28,7 +30,6 @@ public class LC36_ValidSudoku {
 
         // Check for rows
         Set<Character> set = new HashSet<>();
-
         for (char[] row : board) {
             set.clear();
             for (char c : row) {

@@ -96,7 +96,7 @@ public class LC15_3Sum {
     /// </editor-fold>
 
     // Second try (2023-06-26)
-    public static List<List<Integer>> threeSum(int[] nums, int target) {
+    public static List<List<Integer>> threeSum3(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         if (nums.length == 0) return result;
         Arrays.sort(nums);

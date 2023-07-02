@@ -69,11 +69,6 @@ public class LC567_PermutationInString {
 
         return false;
     }
-
-    /**
-     * int array solution<br />
-     *
-     */
 }
 
 

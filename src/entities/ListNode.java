@@ -1,12 +1,15 @@
 package entities;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 public class ListNode {
     public int val;
     public ListNode next;
 
-    ListNode() {
+    public ListNode() {
+
     }
 
     public ListNode(int val) {
@@ -22,7 +25,13 @@ public class ListNode {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         ListNode head = this;
+        Set<ListNode> visited = new HashSet<>();
         while (head != null){
+            if (visited.contains(head)) {
+                sb.append(" -> ...");
+                return sb.toString();
+            }
+            visited.add(head);
             sb.append(head.val);
             head = head.next;
         }

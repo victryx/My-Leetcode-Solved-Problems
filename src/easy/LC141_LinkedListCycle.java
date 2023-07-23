@@ -9,8 +9,8 @@ public class LC141_LinkedListCycle {
 
     /**
      * <b>1st Try.</b> <br />
-     * Reverse a linked list. Iterative solution<br />
-     * Solved: 2023-07-19
+     * Cycle in linked list<br />
+     * Solved: 2023-07-20
      */
     public boolean hasCycle(ListNode head) {
         Set<ListNode> set = new HashSet<>();

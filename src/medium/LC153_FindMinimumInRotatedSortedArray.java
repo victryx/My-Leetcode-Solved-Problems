@@ -25,7 +25,7 @@ public class LC153_FindMinimumInRotatedSortedArray {
      * Binary Search solution<br />
      * Solved: 2023-07-16
      */
-    public int findMin(int[] nums) {
+    public int findMin2(int[] nums) {
         int firstElement = nums[0];
         int hi = nums.length-1;
         int lo = 0;
@@ -44,5 +44,27 @@ public class LC153_FindMinimumInRotatedSortedArray {
         }
         return -1;
     }
-   
+
+    /**
+     * <b>2nd Try.</b> <br />
+     * Better Binary Search solution<br />
+     * Solved: 2023-07-16
+     */
+    public int findMin3(int[] nums) {
+        int hi = nums.length-1;
+        int lo = 0;
+
+        while (lo <= hi) {
+            if (nums[lo] <= nums[hi]) return nums[lo];
+            int mid = (lo + hi) / 2;
+
+            if (nums[mid] >= nums[lo]) {
+                lo = mid + 1;
+            } else {
+                hi = mid;
+            }
+        }
+
+        return 0;
+    }
 }

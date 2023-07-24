@@ -1,6 +1,6 @@
 # My-Leetcode-Solved-Problems
-Some leetcode problems I solved :) 
+Some Leetcode problems I solved :) 
 
-Goal: 500
-Done: 50
+- **Goal:** 500
+- **Done:** 91
 

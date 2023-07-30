@@ -1,4 +1,5 @@
-# My-Leetcode-Solved-Problems
+# My Leetcode Solved Problems
+
 Some Leetcode problems I solved :) 
 
 - **Goal:** 500

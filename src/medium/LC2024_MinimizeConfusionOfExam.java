@@ -4,7 +4,7 @@ public class LC2024_MinimizeConfusionOfExam {
     /**
      * lee215's solution <br />
      * I used a bit of help because it is very late<br />
-     * Homework: Understand what this does
+     * TODO Homework: Understand what this does
      */
     public int maxConsecutiveAnswers(String answerKey, int k) {
         int result = 0;

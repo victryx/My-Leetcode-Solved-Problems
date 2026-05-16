@@ -8,7 +8,7 @@
  * for (int i = 0; i < nums.size(); i++)
  * this doesn't cause any compile errors -_-
  *
- * @author vic
+ * @author Vika
  * @date January 2025
  */
 

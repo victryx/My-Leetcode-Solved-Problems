@@ -2,7 +2,7 @@
  * @file 0128-LongestConsecutive.cpp
  * @brief I remembered the set solution
  *
- * @author vic
+ * @author Vika
  * @date February 2025
  */
 

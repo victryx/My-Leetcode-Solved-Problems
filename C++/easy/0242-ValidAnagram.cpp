@@ -4,7 +4,7 @@
  * forgot to initialize the array and because I failed on guessing
  * the number of letters in the alphabet
  *
- * @author vic
+ * @author Vika
  * @date February 2025
  */
 

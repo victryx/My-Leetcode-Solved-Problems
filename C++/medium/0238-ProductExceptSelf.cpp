@@ -2,7 +2,7 @@
  * @file 0238-ProductExceptSelf.cpp
  * @brief I had to check my old Java submissions for solving this one.
  *
- * @author vic
+ * @author Vika
  * @date February 2025
  */
 
